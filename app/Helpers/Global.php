@@ -32,10 +32,6 @@ if(!function_exists('debugLaravel')) {
             // var_dump($x); 
         }, func_get_args()); 
         die;
-
-        // echo '<pre>';
-        // die(var_dump($variable));
-        // echo '</pre>';
     }
 }
 if(!function_exists('calcularValorParcela')) {

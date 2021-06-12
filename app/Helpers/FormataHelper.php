@@ -1,15 +1,11 @@
 <?php
 
 /**
- * Classe de utilidades para o sistema
- * @version 1
- * @author Pedro <pero.phnb@gmail.com>
+ * Classe de Formatacao
+ * @author Pedro <pedro.phnb@gmail.com>
  */
 
 namespace App\Helpers;
-//Exemplo - {{ \App\Helpers\CustomHelper::fooBar() }}
-
-
 class FormataHelper {
 
     /**

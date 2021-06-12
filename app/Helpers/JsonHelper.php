@@ -2,14 +2,10 @@
 
 /**
  * Classe para retornar dados json
- * @version 1
- * @author Pedro <pero.phnb@gmail.com>
+ * @author Pedro <pedro.phnb@gmail.com>
  */
 
 namespace App\Helpers;
-//Exemplo - {{ \App\Helpers\JsonHelper::fooBar() }}
-
-
 class JsonHelper {
     /**
      * Listar convenios

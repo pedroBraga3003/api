@@ -8,12 +8,11 @@ use Illuminate\Http\Request;
 class TaxasInstituicoesController extends Controller
 {
     /**
-     * Buscar taxasinstituicoes
+     * Simular taxas instituicoes
      *
      * @return \Illuminate\Http\Response
      */
     public function index(Request $request){
-
         $rules = [
             'valor_emprestimo' => 'required',
         ];
