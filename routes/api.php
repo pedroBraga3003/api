@@ -17,3 +17,12 @@ use Illuminate\Support\Facades\Route;
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
+
+use App\Http\Controllers\InstituicoesController;
+Route::get('instituicoes', [InstituicoesController::class, 'index']);
+
+use App\Http\Controllers\ConveniosController;
+Route::get('convenios', [ConveniosController::class, 'index']);
+
+use App\Http\Controllers\TaxasInstituicoesController;
+Route::post('taxas-instituicoes', [TaxasInstituicoesController::class, 'index']);
